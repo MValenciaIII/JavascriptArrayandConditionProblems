@@ -3,9 +3,9 @@
 let items = ["apple", "banana", "cherry", "date", "elderberry"];
 
 //TODO Access specific elements
-let firstItem = items[#];
-let thirdItem = items[#];
-let lastItem = items[#];
+let firstItem = items[0];
+let thirdItem = items[2];
+let lastItem = items[items.length - 1];
 
 //* Output the results
 console.log("Items: " + items);
