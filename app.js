@@ -99,11 +99,11 @@ let number1 = Math.floor(2);
 console.log(number1);
 
 
-colors[2] = "cyan"
+colors[!2] = "cyan"
 colors.pop();
 colors.push("orange")
 //* Output the results
-console.log(colors[rng]);
+console.log(colors);
 
 
 
@@ -170,10 +170,24 @@ if (boo3 == 4) {
 };
 
 
-// if Else Structure
-let amHungry = true;
+/*
+!THESE ARE THE ONLY FALSY VALUES
+- false
+- 0 
+- -0 
+- 0n
+- ""
+- '' (empty strings)
+- null 
+- undefined
+- NaN
 
-if(amHungry == true) {
+*/
+
+// if Else Structure
+let amHungry = "";
+
+if(amHungry) {
     console.log("Let's eat! I want Chicken nuggies!");
 } else {
     console.log("Let's keep coding! Yay!");
