@@ -365,7 +365,7 @@ let num = 0;
 //? If num > 0
 //? If num == 0;
 //? if num < 0;
-debugger
+
 switch (true) {
     case (num > 0):
         console.log("THis is a positive Number!");
@@ -387,3 +387,34 @@ if (num > 0 ) {
 }
 
 //* output the result
+
+
+
+//! DIfferences between "==" and "==="
+
+//? "==" definition: "is loosely equal to"
+
+let leftNum = 4;
+let rightNum = "4";
+
+console.log(leftNum == rightNum);
+//! TRUE
+
+//? "===" definition: "STRICTLY equal to"
+
+console.log(leftNum === rightNum);
+//! FALSE
+
+let password = "UndER28S@#fdd"
+let password2 = "under28s@#fdd"
+
+console.log(password === password2);
+
+
+//? "const" is a reserved word (ex. let, var) 
+//? what it means "const" - makes your stored information in a variable not changable;
+
+
+const myName = "Margarito Valencia III";
+
+
